@@ -529,6 +529,10 @@ footer p {
   cursor: context-menu;
 }
 
+.section-form {
+  background-color: rgba(255, 251, 251, 0.979);
+}
+
 /*-------------------- animations---------- */
 .js--wp-1,
 .js--wp-2 {
