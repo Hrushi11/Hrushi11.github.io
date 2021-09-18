@@ -200,6 +200,38 @@
   .contact-form {
     width: 100%;
   }
+
+  .section-form {
+    text-align: center;
+  }
+
+  /* .newsletter {
+    display: inline-grid;
+    grid-column-gap: 50px;
+  } */
+
+  .n1 {
+    float: left;
+    width: 50%;
+  }
+
+  /* Clear floats after the columns */
+  .newsletter :after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .n1 {
+    width: 50%;
+    margin: 0;
+    padding-bottom: 13px;
+  }
+
+  .n2 {
+    padding-top: 8px;
+    padding-bottom: 10px;
+  }
 }
 
 /* For phones */
@@ -237,22 +269,4 @@
   .logo {
     height: 110px;
   }
-
-  /* .main-nav {
-    float: left;
-    margin-top: 20px;
-    margin-left: 20px;
-  }
-
-  .main-nav li {
-    display: block;
-  }
-
-  .main-nav li a:link,
-  .main-nav li a:visited {
-    display: block;
-    border: 0;
-    padding: 7px 0;
-    font-size: 80%;
-  } */
 }
