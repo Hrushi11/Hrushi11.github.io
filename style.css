@@ -448,7 +448,7 @@ input[type="submit"] {
 }
 
 footer {
-  background-color: #332;
+  background-color: rgb(43, 41, 41);
   padding: 50px;
   font-size: 80%;
 }
@@ -490,7 +490,7 @@ footer {
 }
 
 .p {
-  color: #888;
+  color: rgba(255, 255, 255, 0.671);
   text-align: center;
   margin-top: 20px;
 }
@@ -525,14 +525,13 @@ footer {
   color: white;
 }
 
-footer p {
-  cursor: context-menu;
-}
-
 .section-form {
   background-color: rgba(255, 251, 251, 0.979);
 }
 
+footer p {
+  cursor: context-menu;
+}
 /*-------------------- animations---------- */
 .js--wp-1,
 .js--wp-2 {
